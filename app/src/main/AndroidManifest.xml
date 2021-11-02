@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.healtylife">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity
+            android:name=".LogitemActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Stgnotification2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".StgunitActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CreatefoodActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StgmyitemsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SettingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoglunchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LogsnackActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LogdinnerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LogbreakfastActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FoodoptionsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Progress1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Homescreen2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Homescreen1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".MaintenanceerrorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ForgotpasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SigninActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Stgnotification1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".HealtylifeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
